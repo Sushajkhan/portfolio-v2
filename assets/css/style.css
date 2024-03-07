@@ -946,6 +946,11 @@ main {
   width: 50px;
   height: 50px;
 }
+  .skills-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
@@ -1702,7 +1707,11 @@ textarea.form-input::-webkit-resizer {
     font-size: 18px;
   }
 }
-
+  .skills-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
 /**
  * responsive larger than 768px screen
  */
@@ -1711,7 +1720,11 @@ textarea.form-input::-webkit-resizer {
   /**
    * REUSED STYLE
    */
-
+  .skills-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
   .sidebar,
   article {
     width: 700px;
@@ -1851,7 +1864,11 @@ textarea.form-input::-webkit-resizer {
   main {
     margin-bottom: 60px;
   }
-
+  .skills-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
   .main-content {
     position: relative;
     width: max-content;
