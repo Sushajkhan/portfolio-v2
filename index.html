@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushajkhan - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./assets//images//favicon.ico"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profile-pic.png"
+              alt="Sushajkhan "
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Sushajkhan">Sushajkhan S</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:sushajkhan@gmail.com" class="contact-link"
+                  >sushajkhan@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919995813365" class="contact-link"
+                  >+91 9995813365</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1995-11-04">November 4, 1995</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Kochi, Kerala, IN</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/sushajkhan"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.github.com/Sushajkhan" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://wa.me/919995813365" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              A full stack web developer who is passionate about harnessing the
+              power of technology to create innovative solutions and drive
+              meaningful change. My commitment to lifelong learning has driven
+              me to master the latest tools and technologies in the JavaScript
+              ecosystem, from React and Node.js to databases and deployment.My
+              expertise now spans the entire spectrum of web development – from
+              building robust back-end solutions to designing intuitive
+              front-end interfaces. With an insatiable curiosity, I thrive on
+              staying up-to-date with the latest technologies, frameworks, and
+              best practices. Whether I'm delving into the intricacies of
+              database architecture, implementing RESTful APIs, or fine-tuning
+              responsive layouts, I'm dedicated to producing top-tier results.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Development</h4>
+
+                  <p class="service-item-text">
+                    Backend Server Development of Website
+                  </p>
+                </div>
+              </li>
+
+              
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header class="resume-container">
+            <h2 class="h2 article-title">Resume</h2>
+
+            <a
+              class="icon-box"
+              href="https://drive.google.com/file/d/10G0n5noEvIbnUPX0ZJM24dZ6Yd9x9fEa/view?usp=drive_link"
+              class="book-outline"
+              ><ion-icon name="download-outline"></ion-icon
+            ></a>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Mern Stack Web Developer Intern
+                </h4>
+
+                <span class="company-container"
+                  ><p class="company">Entri |</p>
+
+                  <p class="year">Feb 2023 — Jan 2024</p></span
+                >
+
+                <p class="timeline-text">
+                 
+Developed efficient, testable code using HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, Node.js, Express.js, MongoDB, Redux, and APIs. Proficient in version control with Git/GitHub for collaborative development. Stayed current with web development trends through continuous learning and participation in study groups.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Electrical Engineer</h4>
+
+                <span class="company-container"
+                  ><p class="company">Jolly Industries |</p>
+
+                  <p class="year">Sep 2020 - Oct 2022</p></span
+                >
+                <p class="timeline-text">
+                  Developed budgets, schedules, and engineering analyses for electrical systems design. Obtained resources and implemented testing, maintenance, and preventative measures for system upkeep.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Junior Engineer</h4>
+
+                <span class="company-container"
+                  ><p class="company">Techosa Edu Solutions Pvt. Ltd |</p>
+
+                  <p class="year">Jun 2019 - May 2020</p></span
+                >
+                <p class="timeline-text">
+                  Assembled and demonstrated circuitry for electronics and embedded projects, executed quick-turn prototyping, circuit bring-up, and debugged new concepts. I also assisted the technical department in research and development.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Electrical Engineer</h4>
+
+                <span class="company-container"
+                  ><p class="company">Earth N'Sky Constructions |</p>
+
+                  <p class="year">Aug 2017 - Apr 2019</p></span
+                >
+                <p class="timeline-text">
+                 
+Designed building electrical systems using AutoCAD, managed budgets, schedules, and resources for installation.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  B-Tech in Electrical and Electronics Engineering
+                </h4>
+
+                <span>2013 - 2017</span>
+
+                <p class="timeline-text">
+                  Younus College of engineering and Technology, Kollam, Kerala
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Tools & Technologies</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg"
+                    alt=""
+                  />
+                </div>
+                </li>
+                <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+             
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              
+              </li>
+            
+              
+              
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+                <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="tools"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>  
+            </div>
+
+            <ul class="project-list">
+              <li class="project-item active">
+                <a href="https://chat-app-tan-pi.vercel.app">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="dotchat"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Dot Chat</h3>
+
+                  <p class="project-category">Chat app using Websockets</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://hire-mu.vercel.app">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="hire"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Hire</h3>
+
+                  <p class="project-category">
+                    Job portal app using MERN stack
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://github.com/Sushajkhan/sportify-turf-booking">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Sportify</h3>
+
+                  <p class="project-category">
+                    Playground booking app using MERN stack
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://screen-mauve.vercel.app">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="cinema."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Cinema.</h3>
+
+                  <p class="project-category">
+                    Movies and TV series search app using React
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://sushajkhan.netlify.app">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="portfolio"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Portfolio</h3>
+
+                  <p class="project-category">Portfolio using React</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://sushajkhan.github.io/bootstrap-blog-home/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="bootstrap-blog"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Blog-UI</h3>
+
+                  <p class="project-category">Blog UI using Bootstrap</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/Sushajkhan/memmory-game-js">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="memmory-game"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Memmory Game</h3>
+
+                  <p class="project-category">Memmory game using javascript</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7737.660133504464!2d76.26050457897189!3d9.939093255931083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b081061bf8e4257%3A0x3476a6c95d4d4b0!2sKochi%2C%20Kerala%2C%20India!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
