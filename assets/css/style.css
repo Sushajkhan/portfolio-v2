@@ -351,6 +351,11 @@ main {
   gap: 15px;
 }
 
+  .skills-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
